@@ -1,0 +1,52 @@
+.card-img-top{
+  height: 200px;
+  width: 328px;
+  border-bottom: 2px red solid;
+}
+.navbar{
+    margin-bottom: 20px;
+}
+.nav-item:hover{
+  border-bottom: 2px yellow solid;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+body{
+  background-color:yellow;
+}
+.card{
+  border:3px black solid;
+  width:21rem;
+  margin-bottom: 30px;
+}
+
+.jumbotron{
+    border: 3px black solid;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+}
+
+.card a{
+  margin-left: 60px;
+}
+.carousel img{
+  height: 400px;
+  width:200px;
+}
+#footer{
+  background-color:#101820FF;
+ }
+#footer,#footer a{
+     color: #FEE715FF;
+ }
+ @media (max-width:1000px){
+   .card{
+     margin-left:20px;
+   }
+  /* #liveAlertBtn{
+    margin-left: 30px;
+  } */
+
+ }

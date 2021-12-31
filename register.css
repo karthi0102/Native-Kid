@@ -1,0 +1,16 @@
+body{
+    background-image: url('./bg.jpg');
+}
+.form{
+    margin-top:4rem;
+    border: 3px solid black;
+    background-image: url('./register.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:700px;
+    height: 500px;
+    color:white;
+}
+.btn{
+    margin-left: 250px;
+}

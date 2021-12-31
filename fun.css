@@ -1,0 +1,28 @@
+.row a{
+    margin-left: 70px;
+}
+.card .card-img-top{
+    height: 250px;
+}
+.game{
+    color:white;
+}
+.card{
+    background-color:#FCF6F5FF;
+}
+body{
+    background-color: #3C1053FF;
+}
+.navbar a:hover{
+    border-bottom: 2px solid violet;
+}
+
+@media (max-width:1000px) {
+    .card{
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+    .animation {
+            margin-left: 40px;
+    }
+}

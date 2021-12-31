@@ -1,0 +1,32 @@
+body{
+    background-image: url('./bg.jpg');
+}
+p a{
+    text-decoration: none;
+}
+p{
+    background-color: white;
+    margin-left: 230px;
+    width:155px
+}
+.btn{
+    margin-left: 250px;
+}
+
+.form{
+    margin-top:3rem;
+    border: 3px solid black;
+    background-image: url('https://cdn.dribbble.com/users/529948/screenshots/2930630/media/830e7bfe160d4a6c10bebe3a0483a825.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width:700px;
+}
+@media (max-width:1000px) {
+    .btn{
+        margin-left: 0;
+    }
+    p{
+        margin-left: 0;
+    }
+}
